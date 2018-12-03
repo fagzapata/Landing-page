@@ -1,0 +1,452 @@
+/********************************
+//Fabian Gallegos Zapata
+//fgallegos_097@hotmail.com
+//copyright®FabianGallegosZapata
+********************************/
+/**********IMPORT*********/
+@import './header.css';
+/**********END IMPORT*****/
+/*.para{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/imagenes-a512c.appspot.com/o/Landing_page%2Ffondo%20solo.jpg?alt=media&token=e2ef203b-9f8d-46e6-a175-a05b688fcbf5');
+  background-size:cover;
+  
+  /* Set a specific height 
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+#divider{
+  background: #ddd;
+}
+.bordes{
+  background:transparent;
+  border: 1px solid transparent;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 30px;
+  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-in-out;
+  -moz-transition: margin 0.5s ease-in-out;
+  -o-transition: margin 0.5s ease-in-out; 
+}
+.bordes:hover{
+  margin-top: -25px;
+}
+.bordes_special{
+  background:transparent;
+  border: 1px solid transparent;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 30px;
+}
+/********************************/
+.special_description_img{
+float: left;
+margin: 15px;
+cursor: pointer;
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-o-transition: margin 0.5s ease-out;
+}
+.special_description_img:hover{
+  margin-top: -25px;
+}
+
+.section_padding_0_100 {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+.section-heading > h2{
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: #5d3b77;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+.special_description_content > h2 {
+    color: #5d3b77;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.section-heading{
+  margin-bottom: 60px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .section-heading > h2{
+    font-size: 38px;
+  }
+  .section-heading{
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px){
+  .section-heading > h2{
+    font-size: 32px;
+  }
+}
+.img-1{
+  max-width: 20%;
+  font-style: italic;
+  top:150px;
+  vertical-align: middle;
+}
+#color_principal{
+  background: #5d3b77;
+}
+.default-header {
+  padding-left: .8rem;
+  padding-right: .8rem;
+  padding-top: 0em;
+  position: fixed;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.f-puto{
+  background-image: -webkit-linear-gradient(0deg, #00000069 0%, #00000069 100%);
+  top: 0px;
+  right: 20px;
+}
+.parallax {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/imagenes-a512c.appspot.com/o/Landing_page%2FFondoHD.jpg?alt=media&token=83dbc153-a8a3-4a1c-b4fc-f002cd8b84d0');
+    /*background-color: #000000;*/
+    background-size:cover;
+    background-attachment: scroll;
+    /* Set a specific height 
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*footer class styles shit*/
+li{
+  list-style: none; 
+}
+span{
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/*footer class styles end shit*/
+@media screen and (max-width: 544px) {
+  .btn-xs-block {
+    display: block;
+    width: 100%;
+  }
+  .btn-xs-block + .btn-xs-block {
+   margin-top: .5rem;
+  }
+}
+.text_1{
+  color:#5d3b77;
+  font-size: 1em;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.text_2{
+  color:#5d3b77;
+  font-size: 1em;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.color{
+  color: white;
+  font-size: 1.5rem;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.color_f{
+  color: white;
+  font-size: 1.38rem;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ #color_1{
+  color:  #f3e27f;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .color_2{
+   color: #5d3b77;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ #color_3{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ /* Por debajo de 700px */
+  @media screen and (max-width: 700px){
+    #color_3{
+      font-size:18px;
+    }
+    .texto{
+      width: auto;
+      size: 5px;
+    }
+  }
+  .texto{
+    width: auto;
+    size: 15px;
+  }
+/* Por debajo de 400px */
+  @media screen and (max-width: 400px){
+    #color_3{
+      font-size:10px;
+    } 
+  }
+  @media screen and (max-width: 1024px){
+    #color_3{
+      font-size:15px;
+    } 
+  }
+   @media screen and (min-width: 1024px){
+    #color_3{
+      font-size:15px;
+    } 
+  }
+   @media screen and (max-width: 900px){
+    #color_3{
+      font-size:18px;
+    } 
+  }
+   @media screen and (min-width: 900px){
+    #color_3{
+      font-size:20px;
+    } 
+  }
+ .img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.custom-loader {
+    animation: loader 1s infinite;
+    display: flex;
+  }
+  @-moz-keyframes loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes loader {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+/********************************/
+  .line-shape-white,
+.line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #f3e27f;
+    margin-top: 15px;
+}
+.line-shape {
+    margin-left: calc(50% - 40px);
+}
+  /**************btn*******************/
+  .app-download-area {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 1;
+    flex-basis: 1;
+    margin-top: 50px;
+}
+.app-download-btn a {
+    border: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 30px 0px 30px 0;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  /*  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out; */
+}
+.app-download-btn.active a,
+.app-download-btn a:hover {
+    border-color: transparent;
+    background-color: #5d3b77;
+    /*margin-top: -10px;*/
+}
+.app-download-btn a i {
+    /*color:f3e27f;*/
+    font-size: 24px;
+    margin-right: 15px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.app-download-btn a p {
+    font-size: 16px;
+    line-height: 1;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.app-download-btn a p span {
+    font-size: 12px;
+    display: block;
+}
+.app-download-btn:first-child {
+    margin-right: 20px;
+}
+.app-download-btn a:hover i,
+.app-download-btn.active a i,
+.app-download-btn.active a p,
+.app-download-btn a:hover p {
+    color: #fff;
+}
+  /*********************************/
+  @media (min-width: 425px) and (max-width: 570px){
+    .app-download-btn a {
+      border: 1px solid #ddd;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 15px 15px;
+      border-radius: 30px 0px 30px 0;
+      -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    /*  float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out; */
+  }
+  .app-download-btn.active a,
+  .app-download-btn a:hover {
+      border-color: transparent;
+      background-color: #5d3b77;
+      /*margin-top: -10px;*/
+  }
+  .app-download-btn a i {
+      /*color:f3e27f;*/
+      font-size: 24px;
+      margin-right: 15px;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+  }
+  .app-download-btn a p {
+      font-size: 16px;
+      line-height: 1;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+  }
+  .app-download-btn a p span {
+      font-size: 12px;
+      display: block;
+  }
+  .app-download-btn:first-child {
+      margin-right: 20px;
+  }
+  .app-download-btn a:hover i,
+  .app-download-btn.active a i,
+  .app-download-btn.active a p,
+  .app-download-btn a:hover p {
+      color: #fff;
+  }
+  }
+  @media (min-width: 375px) and (max-width: 570px){
+      .app-download-btn a {
+        border: 1px solid #ddd;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 25px 25px;
+        border-radius: 30px 0px 30px 0;
+        -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.312);
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      /*  float: left;
+      margin: 15px;
+      -webkit-transition: margin 0.5s ease-out;
+      -moz-transition: margin 0.5s ease-out;
+      -o-transition: margin 0.5s ease-out; */
+    }
+    .app-download-btn.active a,
+    .app-download-btn a:hover {
+        border-color: transparent;
+        background-color: #5d3b77;
+        /*margin-top: -10px;*/
+    }
+    .app-download-btn a i {
+        /*color:f3e27f;*/
+        font-size: 22px;
+        margin-right: 10px;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+    .app-download-btn a p {
+        font-size: 16px;
+        line-height: 1;
+        -webkit-transition-duration: 500ms;
+        -o-transition-duration: 500ms;
+        transition-duration: 500ms;
+    }
+    .app-download-btn a p span {
+        font-size: 12px;
+        display: block;
+    }
+    .app-download-btn:first-child {
+        margin-right: 20px;
+    }
+    .app-download-btn a:hover i,
+    .app-download-btn.active a i,
+    .app-download-btn.active a p,
+    .app-download-btn a:hover p {
+        color: #fff;
+    }
+    }

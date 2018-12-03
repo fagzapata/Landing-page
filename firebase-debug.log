@@ -1,0 +1,104 @@
+[debug] [2018-11-21T22:35:00.195Z] ----------------------------------------------------------------------
+[debug] [2018-11-21T22:35:00.199Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\FabianG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-11-21T22:35:00.200Z] CLI Version:   6.1.1
+[debug] [2018-11-21T22:35:00.200Z] Platform:      win32
+[debug] [2018-11-21T22:35:00.200Z] Node Version:  v8.12.0
+[debug] [2018-11-21T22:35:00.200Z] Time:          Wed Nov 21 2018 16:35:00 GMT-0600 (Hora estándar central (México))
+[debug] [2018-11-21T22:35:00.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-21T22:35:00.217Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-21T22:35:00.217Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\FabianG
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-11-21T22:35:16.667Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2018-11-21T22:35:17.013Z] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1148:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:219:9)
+[error] 
+[error] Error: Server Error. socket hang up
+[debug] [2018-11-21T22:36:42.631Z] ----------------------------------------------------------------------
+[debug] [2018-11-21T22:36:42.635Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\FabianG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2018-11-21T22:36:42.636Z] CLI Version:   6.1.1
+[debug] [2018-11-21T22:36:42.636Z] Platform:      win32
+[debug] [2018-11-21T22:36:42.636Z] Node Version:  v8.12.0
+[debug] [2018-11-21T22:36:42.637Z] Time:          Wed Nov 21 2018 16:36:42 GMT-0600 (Hora estándar central (México))
+[debug] [2018-11-21T22:36:42.637Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-21T22:36:42.653Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-21T22:36:42.654Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\FabianG
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-11-21T22:36:51.747Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2018-11-21T22:36:52.196Z] Error: socket hang up
+    at TLSSocket.onHangUp (_tls_wrap.js:1148:19)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:219:9)
+[error] 
+[error] Error: Server Error. socket hang up

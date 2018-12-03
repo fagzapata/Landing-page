@@ -1,0 +1,209 @@
+/********************************
+//Fabian Gallegos Zapata
+//fgallegos_097@hotmail.com
+//copyright®FabianGallegosZapata
+********************************/
+/*****tooltip*******/
+
+/******************/
+/******************HEADER NAVBAR START*****************/
+.header_area {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 0 4%;
+  }
+  
+  .menu_area .navbar-brand {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+  }
+  
+  .color:hover{
+    background:transparent;
+    color: #f3e27f;
+    list-style: none;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+  }
+  .color:active{
+  position: relative;
+  }
+  
+  .menu_area .navbar-brand:hover,
+  .menu_area .navbar-brand:focus {
+    color: #fff;
+  }
+  
+  
+  .menu_area {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .menu_area #nav .nav-link {
+    color: #fff;
+    display: inline-table;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    padding: 15px 15px;
+  }
+  
+  
+  .menu_area nav ul li > a:hover {
+    color: #5d3b77;
+  }
+  
+  .sing-up-button {
+    text-align: right;
+  }
+  
+  .sing-up-button > a {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    border: 2px solid #fff;
+    height: 50px;
+    min-width: 178px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px 0px 24px 0px;
+  }
+  
+  .sing-up-button > a:hover {
+    background: #5d3b77;
+    color: #fff;
+    border-color: transparent;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+  }
+  
+  /* stcicky css */
+  
+  .header_area.sticky {
+    background-color: #5d3b77;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.312);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.312);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  
+  .header_area.sticky .menu_area .navbar-brand {
+    font-size: 50px;
+  }
+  
+  .header_area.sticky .menu_area #nav .nav-link {
+    padding: 23px 15px;
+  }
+  .header_area.sticky .navbar {
+    padding: 0;
+  }
+  /*******RESPONSIVE*************/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .menu_area .navbar-brand {
+        font-size: 42px;
+    }
+    .menu_area #nav .nav-link {
+        padding: 35px 7.5px;
+    }
+    .sing-up-button > a {
+        color: #fff;
+        height: 40px;
+        min-width: 152px;
+        line-height: 36px;
+        font-size: 14px;
+    }
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 23px 7.5px;
+    }
+  }
+
+  @media (min-width: 768px){
+.navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    margin: 3px;
+    text-indent: inherit;
+}
+}
+@media (min-width: 998px){
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        margin: -21px;
+        text-indent: inherit;
+    }
+    }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .header_area {
+        padding: 0;
+    }
+    .menu_area .navbar-brand {
+        font-size: 48px;
+    }
+    .header_area.sticky {
+        height: 50px;
+    }
+    .header_area .menu_area #nav .nav-link,
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 7.5px 15px;
+    }
+    #ca-navbar {
+        padding: 30px;
+        border-radius: 3px;
+        background-color: #5d3b77;
+        text-align: left;
+    }
+    .sing-up-button {
+        margin-top: 0px;
+        text-align: left;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .header_area {
+        padding: 0;
+    }
+    .menu_area .navbar-brand {
+        font-size: 48px;
+    }
+    .header_area.sticky {
+        height: 50px;
+    }
+    .header_area .menu_area #nav .nav-link,
+    .header_area.sticky .menu_area #nav .nav-link {
+        padding: 5px 15px;
+    }
+    #ca-navbar {
+        padding: 20px;
+        border-radius: 3px;
+        background-color: #5d3b77;
+        text-align: left;
+    }
+    .sing-up-button {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .header_area {
+        top: 0;
+    }
+   
+  }
