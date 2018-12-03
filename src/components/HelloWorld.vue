@@ -339,7 +339,7 @@
           </div>
       </v-card-text>     
       <v-card-text class="white--text">
-      <h3><i class="fa fa-phone">Telefono: </i>(921) 21 0 95 90 (94) Ext. 103</h3><br>
+      <h3><i>Telefono: </i>(921) 21 0 95 90 (94) Ext. 103</h3><br>
         &copy;2018 — <strong class="color_f color">Universidad Istmo Americana A.C.</strong>
       </v-card-text>
     </v-card>
