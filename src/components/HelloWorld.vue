@@ -44,7 +44,7 @@
            <v-btn class="pull-sm-left btn-xs-block" slot="activator" type="button" color="#5d3b77" dark large @click="dialog = true">
                 <span class="color">Bienvenido</span>
               </v-btn>
-              <v-dialog v-model="dialog" width="550">
+              <v-dialog v-model="dialog" width="570">
         <v-card>
           <v-img class="white--text"
           height="200px"  aspect-ratio="5"
