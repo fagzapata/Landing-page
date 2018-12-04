@@ -16,10 +16,10 @@
            <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
            <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav class="container d-flex px-5 py-1 ml-auto">
-                   <b-nav-item class="b" href="#home" flat><span class="color">Inicio</span></b-nav-item>
-                   <b-nav-item href="#Acerca" flat><span class="color">Acerca</span></b-nav-item>
-                   <b-nav-item href="#Galeria" flat><span class="color">Galeria</span></b-nav-item>
-                   <b-nav-item href="#Perfil" flat><span class="color">Perfiles</span></b-nav-item>
+                   <b-nav-item v-scroll-to="{ element: '#Home', duration: 2000 }" flat><span class="color">Inicio</span></b-nav-item>
+                   <b-nav-item v-scroll-to="{ element: '#Acerca', duration: 2000 }" flat><span class="color">Acerca</span></b-nav-item>
+                   <b-nav-item v-scroll-to="{ element: '#Galeria', duration: 2000 }" flat><span class="color">Galeria</span></b-nav-item>
+                   <b-nav-item v-scroll-to="{ element: '#Perfil', duration: 2000 }" flat><span class="color">Perfiles</span></b-nav-item>
                    <div class="sing-up-button d-lg-none">
                                     <a href="#"><span class="color">Plataforma</span></a>
                                 </div>
@@ -29,12 +29,6 @@
                       <a data-toggle="tooltip" title="Uso Estudiantil" href="https://istmo-administrativo.firebaseapp.com/login" target="blank"><span class="color">Plataforma</span></a>
                     </div>
                 </div>
-                <div class="tooltip bs-tooltip-top" role="tooltip">
-  <div class="arrow"></div>
-  <div class="tooltip-inner">
-    Uso Estudiantil
-  </div>
-</div>
            </b-collapse>
         </b-navbar>               
             </div>
@@ -43,7 +37,7 @@
         </div>
       </header>
        <v-parallax class="parallax" height="659">
-        <v-layout column align-center justify-center id="home">
+        <v-layout column align-center justify-center id="Home">
           <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-a512c.appspot.com/o/Landing_page%2FLogoFacultad.png?alt=media&token=3c8eaaa6-6a62-471f-9dd2-d0cebeef795d" class="img-1" alt="universidad logo">
           <h1 class="head mb-5 display-3 text-xs-center">Facultad de Ingeniería en <br> Desarrollo y Gestión de Software</h1>
           <div class="headline white--text mb2 display-2 text-xs-center">Humildad, Ciencia y Honestidad</div>
@@ -329,17 +323,17 @@
       <v-flex xs12>
         <v-card flat tile id="color_principal" class="lighten-1 white--text text-xs-center flex">
       <v-card-text>
-          <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-       <div class="btn-group">
-           <a class="btn btn-default" href="https://web.facebook.com/UniversidadIstmoAmericana/" target="blank"><i class="fa fa-facebook fa-3x"></i></a>
-           <a class="btn btn-default" href="https://twitter.com/uistmoamericana" target="blank"><i class="fa fa-twitter fa-3x"></i></a>
-           <a class="btn btn-default" href="https://www.instagram.com/uistmoamericana/?hl=es-la" target="blank"><i class="fa fa-instagram fa-3x"></i></a>
-           <a class="btn btn-default" href="http://www.istmoamericana.com/" target="blank"><i class="fa fa-chrome fa-3x"></i></a>
-       </div>
-          </div>
+      <div>
+         <div class="btn-group" id="space">
+           <a class="btn btn-default" href="https://web.facebook.com/UniversidadIstmoAmericana/" target="blank"><i class="fa fa-facebook fa-2x"></i></a>
+           <a class="btn btn-default" href="https://twitter.com/uistmoamericana" target="blank"><i class="fa fa-twitter fa-2x"></i></a>
+           <a class="btn btn-default" href="https://www.instagram.com/uistmoamericana/?hl=es-la" target="blank"><i class="fa fa-instagram fa-2x"></i></a>
+           <a class="btn btn-default" href="http://www.istmoamericana.com/" target="blank"><i class="fa fa-chrome fa-2x"></i></a>
+        </div>
+      </div>
       </v-card-text>     
       <v-card-text class="white--text">
-      <h3><i>Telefono: </i>(921) 21 0 95 90 (94) Ext. 103</h3><br>
+      <span><i>Telefono:</i>(921) 21 0 95 90 (94) Ext. 103</span><br>
         &copy;2018 — <strong class="color_f color">Universidad Istmo Americana A.C.</strong>
       </v-card-text>
     </v-card>

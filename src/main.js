@@ -29,6 +29,9 @@ Vue.use(jquery)
 //owl-carousel
 import owl from 'vue-carousel'
 Vue.use(owl)
+//scrolltO
+import scroll from 'vue-scrollto'
+Vue.use(scroll)
 //configuracion a produccion
 Vue.config.productionTip = false
 
