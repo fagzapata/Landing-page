@@ -18,7 +18,7 @@
                 <b-navbar-nav class="container d-flex px-5 py-1 ml-auto">
                    <b-nav-item v-scroll-to="{ element: '#Home', duration: 2000 }" flat><span class="color">Inicio</span></b-nav-item>
                    <b-nav-item v-scroll-to="{ element: '#Acerca', duration: 2000 }" flat><span class="color">Acerca</span></b-nav-item>
-                   <b-nav-item v-scroll-to="{ element: '#Galeria', duration: 2000 }" flat><span class="color">Galeria</span></b-nav-item>
+                   <b-nav-item v-scroll-to="{ element: '#Galeria', duration: 2000 }" flat><span class="color">Galería</span></b-nav-item>
                    <b-nav-item v-scroll-to="{ element: '#Perfil', duration: 2000 }" flat><span class="color">Perfiles</span></b-nav-item>
                    <div class="sing-up-button d-lg-none">
                                     <a href="#"><span class="color">Plataforma</span></a>
@@ -26,7 +26,7 @@
                </b-navbar-nav>
                <div class="col-lg-3">
                     <div class="sing-up-button d-none d-lg-block">
-                      <a data-toggle="tooltip" title="Uso Estudiantil" href="https://istmo-administrativo.firebaseapp.com/login" target="blank"><span class="color">Plataforma</span></a>
+                      <a data-toggle="tooltip" title="Uso Estudiantil" href="https://web-school-platform-istmo.firebaseapp.com/login" target="blank"><span class="color">Plataforma</span></a>
                     </div>
                 </div>
            </b-collapse>
@@ -62,7 +62,7 @@
           Licenciatura en Ingenieria en Desarrollo y Gestión de Software, en el cual adquiriras Conocimientos, Habilidades en el Diseño y La Gestión de proyectos en dasarrollo de Software
           y desarrollaras la capacidad de formular propuestas innovadoras en Modelos de Negocios que contribuyan al incremento de la Productividad y Competitividad de la 
           industria del Software.
-          Con Actitud y Ética de Colaboración, responsabilidad Sosial, proponiendo soluciones innovadoras en la automatización de los Sistemas de Información con la tecnología e Ingeniería del 
+          Con Actitud y Ética de Colaboración, responsabilidad Social, proponiendo soluciones innovadoras en la automatización de los Sistemas de Información con la tecnología e Ingeniería del 
           Software y sus Aplicaciones en todos los Ámbitos.
         </v-card-text>
         <v-divider></v-divider>
@@ -102,16 +102,16 @@
                             <v-divider id="divider"></v-divider>
                             <h2>Actividades específicas a Desempeñar</h2>
                             <ol class="text_2">
-                              <li><i class="fa fa-check"></i><span>Dirige la Programación, estudia el diseño y la escritura de programas en un lenguaje algorítmico</span></li>
+                              <li><i class="fa fa-check"></i><span>Dirige la programación, estudia el diseño y la escritura de programas en un lenguaje algorítmico</span></li>
                               <v-divider id="divider"></v-divider>
                               <li><i class="fa fa-check"></i><span>Supervisa las pruebas de calidad</span></li>
                               <v-divider id="divider"></v-divider>
-                              <li><i class="fa fa-check"></i><span>Supervisa el Mantenimiento</span></li>
+                              <li><i class="fa fa-check"></i><span>Supervisa el mantenimiento</span></li>
                             </ol>
                             <div class="app-download-area">
                                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                                     <!-- Google Store Btn -->
-                                    <a href="https://firebasestorage.googleapis.com/v0/b/imagenes-a512c.appspot.com/o/Landing_page%2FPDF_Plan_De_Estudios%2FPlan%20de%20estudios.pdf?alt=media&token=b3eb8a70-f6d4-4a95-9e53-038c649c9414" target="blank">
+                                    <a href="https://firebasestorage.googleapis.com/v0/b/imagenes-a512c.appspot.com/o/Landing_page%2FPDF_Plan_De_Estudios%2FPlan%20de%20estudios.pdf?alt=media&token=f09274fe-9f09-4833-b975-cbc0142367a3" target="blank">
                                         <i class="fa fa-file-download"></i>
                                         <p class="mb-0"><span>Descargar Plan de</span>Estudios Profesionales</p>
                                     </a>
@@ -130,7 +130,7 @@
                 <div class="col-xs-12">
                     <!-- Section Heading Area -->
                     <div class="section-heading text-center py-5">
-                        <h2>Galeria</h2>
+                        <h2>Galería</h2>
                         <div class="line-shape"></div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                       <div class="text_1">
                   <span>El <strong>Egresado</strong> de esta carrera se caracterizará por una sólida formación integral que el permitirá desempeñarse exitosamente en el ámbito Profesional.
                       <br>Aplicando los conocimientos adquiridos a partir de su formación básica, disciplinar y profesional con el objetivo de tener una visión más amplia para desarrollar y dar
-                      soluciones con el desarrollo de Software.</span>
+                      soluciones con el desarrollo de software.</span>
                       </div>
                     </v-card-text>
                   </v-card>
@@ -223,19 +223,19 @@
                     <v-card-text class="text-xs-justify">
                       <ol class="text_1">
                         <li><i class="fa fa-check"></i>
-                        <span>Desarrollará Aplicaciones de Software</span>
+                        <span>Desarrollará aplicaciones de software</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Aplicará tecnología bajo Plataformas en Desarrollo Web</span>
+                        <span>Aplicará tecnología bajo plataformas en desarrollo Web</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Aplicará herramientas y metodologias en el desarrollo de Software</span>
+                        <span>Aplicará herramientas y metodologias en el desarrollo de software</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Desarrollará proyectos en Modelos de Negocios Aplicados</span>
+                        <span>Desarrollará proyectos en modelos de negocios aplicados</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
@@ -256,11 +256,11 @@
                     <v-card-text class="text-xs-justify">
                      <ol class="text_1">
                         <li><i class="fa fa-check"></i>
-                        <span>Comunicación efectiva con los diferentes intereses realacionados a Ingeniería de Software</span>
+                        <span>Comunicación efectiva con los diferentes intereses realacionados a ingeniería de software</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Trabajo en equipo para el desarrollo de proyectos relacionados con las diversas aplicaciones del Software</span>
+                        <span>Trabajo en equipo para el desarrollo de proyectos relacionados con las diversas aplicaciones del software</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
@@ -285,23 +285,23 @@
                     <v-card-text class="text-xs-justify">
                       <ol class="text_1">
                         <li><i class="fa fa-check"></i>
-                        <span>Propicia el respeto a las Normas y Leyes</span>
+                        <span>Propicia el respeto a las normas y leyes</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Fomenta la ética Profesional</span>
+                        <span>Fomenta la ética profesional</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Fomenta el trabajo en Equipo, responsabilidad y el Respeto</span>
+                        <span>Fomenta el trabajo en equipo, responsabilidad y el respeto</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Propicia el trabajo Participativo y Colaborativo</span>
+                        <span>Propicia el trabajo participativo y colaborativo</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
-                        <span>Fomenta la Creatividad</span>
+                        <span>Fomenta la creatividad</span>
                         </li>
                         <v-divider></v-divider>
                         <li><i class="fa fa-check"></i>
